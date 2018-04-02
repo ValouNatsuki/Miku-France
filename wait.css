@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background-color: #0ab5ce;
+    background: linear-gradient(135deg, rgba(39,249,249,1) 0%,rgba(32,189,204,1) 28%,rgba(32,189,204,1) 66%,rgba(225,40,133,1) 100%); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#welcome_text {
+	text-align: center;
+    padding-top: 120px;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+img {
+	margin-top: 50px;
+	border-radius:50px;
+}
+
+/* Boutons */
+
+.bouton a {
+display:block;
+width:150px;
+line-height:65px;
+text-align:center;
+vertical-align:middle;
+    background-image: linear-gradient(to top, #201438, #606ae6, #37cdea);
+    border-radius: 8px;
+color:white;
+text-decoration:none;
+float:left;
+margin:2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+	    margin-bottom: 10px;
+}
+
+#navigation_page .bouton a {
+	line-height:50px;	
+	margin-bottom: 50px;
+}
+
+.bouton a:hover {
+    background-image: linear-gradient(to top, #201438, #3341ec, #00d6ff);
+    border-radius: 8px;
+}
+#wrapper {
+  overflow: hidden;   
+}
+#menu,#menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+#menu {
+  left: 50%;
+}
+#menu li {
+  right: 50%;
+}
+
+/* Footer */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+	background: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+    font-size: 13px;
+}
+#footer2 {
+	font-size: 10px;
+}
