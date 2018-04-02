@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-    background: url(com/img/background/bg_mikuv4x.jpg) no-repeat center top #e4f0f8;
+    background: url(/miku-france/com/img/background/bg_mikuv4x.jpg) no-repeat center top #e4f0f8;
     background-size: contein;
     position: relative;
 	padding: 0px;
@@ -16,7 +16,7 @@ body {
     left: 60%;
     top: 8%;
     margin: 10px 0 0 -350px;
-    background: url(com/img/background/img_illust_mikuv4x.png) no-repeat right top;
+    background: url(/miku-france/com/img/background/img_illust_mikuv4x.png) no-repeat right top;
     z-index: -1;
 }
 @media only screen and (max-width: 600px) {
