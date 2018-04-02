@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+ body {
+    background-color: #61c6c3;
+    background-image: url(https://dl.dropbox.com/s/s43diyubehlldre/background-music.png?dl=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 15%;
+    background-position: bottom right;
+	padding: 0px;
+    margin: 0px;
+}
+
+.separator{
+    padding-bottom: 100px;
+}
+
+
+#title_text {
+	text-align: center;
+    padding-top: 0px;
+	padding-bottom: 5px;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.header-logo {
+    float: left;
+    position: relative;
+}
+
+.header-wrapper-container {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 9px 20px;
+    height: 25px;
+    background-color: #3c80ed;
+    position: fixed;
+	z-index: 10;
+	
+	font-family:'Nunito', sans-serif;
+}
+
+.header-wrapper-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    background-color: #333;
+}
+
+.header-wrapper-container li {
+    float: left;
+}
+
+.header-wrapper-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-wrapper-container li a:hover {
+    background-color: #111;
+}
+
+.site-name {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #FFF;
+	
+	vertical-align: top;
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+}
+
+.container {
+	width: 1040px;
+	float: none;
+	margin-right: 0px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-left:0px;
+	overflow: hidden;
+}
+
+#mainContainer {
+    width: 810px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+#side_nav {
+    width: 230px;
+    float: left;
+    height: 70px;
+    position: relative;
+    display: block;
+}
+
+li {
+	list-style:none;
+}
+
+.subContainer{
+	width:805px;
+}
+
+#ohedo_julia_night {
+	background-image: url("https://i.ytimg.com/vi_webp/y3yyYYLyVzw/maxresdefault.webp");
+    background-size: 100%;
+    background-position: center top;
+	margin:0 auto 25px;
+	border-radius: 10px;	
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#sand_planet {
+	background-image: url("https://i.ytimg.com/vi_webp/AS4q9yaWJkI/maxresdefault.webp");
+    background-size: 150%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px
+}
+
+#mirai_16_music {
+	background-image: url("https://i.ytimg.com/vi_webp/OuLZlZ18APQ/maxresdefault.webp");
+    background-size: 150%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#kimagure_mercy {
+	background-image: url("https://i.ytimg.com/vi_webp/o1iz4L-5zkQ/maxresdefault.webp");
+    background-size: 150%;
+    background-position: top left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#ghost_rule {
+	background-image: url("https://i.ytimg.com/vi_webp/KushW6zvazM/maxresdefault.webp");
+    background-size: 130%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#hand_in_hand {
+	background-image: url("https://i.ytimg.com/vi_webp/RKtoreimcQ8/sddefault.webp");
+    background-size: 130%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#ievan_polkka {
+	background-image: url("https://i.ytimg.com/vi_webp/qmf9JkedPR8/maxresdefault.webp");
+    background-size: 130%;
+    background-position: top left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#mikumiku_you {
+	background-image: url("https://i.ytimg.com/vi/-N5XNRNhdcA/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#senbonzakura {
+	background-image: url("https://i.ytimg.com/vi_webp/shs0rAiwsGQ/maxresdefault.webp");
+    background-size: 100%;
+    background-position: center right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#melt {
+	background-image: url("https://i.ytimg.com/vi/o1jAMSQyVPc/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#world_is_mine {
+	background-image: url("https://i.ytimg.com/vi/JW-bFg06Qgc/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#rolling_girl {
+	background-image: url("https://i.ytimg.com/vi/vnw8zURAxkU/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#viva_happy {
+	background-image: url("https://i.ytimg.com/vi_webp/WiUjG9fF3zw/maxresdefault.webp");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#oddsend {
+	background-image: url("https://i.ytimg.com/vi/6OmwKZ9r07o/maxresdefault.jpg");
+    background-size: 100%;
+    background-position: center right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#hibikase {
+	background-image: url("https://i.ytimg.com/vi_webp/TkroHwQYpFE/maxresdefault.webp");
+    background-size: 120%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#disappearance_miku {
+	background-image: url("https://i.ytimg.com/vi/DouheoH8GTs/hqdefault.jpg");
+    background-size: 100%;
+    background-position: top right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#sweet_devil {
+	background-image: url("http://i.imgur.com/xIMk5Cw.jpg");
+    background-size: 100%;
+    background-position: bottom right;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#redial {
+	background-image: url("https://i.ytimg.com/vi/243vPl8HdVk/maxresdefault.jpg");
+    background-size: 150%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#rampage_miku {
+	background-image: url("https://i.ytimg.com/vi/LrXc3VgxNsY/hqdefault.jpg");
+    background-size: 100%;
+    background-position: top left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#thank_you {
+	background-image: url("https://i.ytimg.com/vi_webp/ecU_uJRzhfk/maxresdefault.webp");
+    background-size: 130%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#weekender_girl {
+	background-image: url("http://pm1.narvii.com/6001/81b8884b2cfd8d1ce28ae6528f3862afd3719d89_hq.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#karakuri_pierrot {
+	background-image: url("https://i.ytimg.com/vi/xxFkW3PCT5M/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#freely_tomorrow {
+	background-image: url("https://i.ytimg.com/vi/KmvydnVTriE/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#deepsea_girl {
+	background-image: url("https://i.ytimg.com/vi/2CwBFr-Eoxg/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#tell_your_world {
+	background-image: url("https://i.ytimg.com/vi/PqJNc9KVIZE/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#systematic_love {
+	background-image: url("https://i.ytimg.com/vi/16iOXrf3dQ8/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#ai_kotoba {
+	background-image: url("https://i.ytimg.com/vi/RUv64Bb1vis/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#electro_saturator {
+	background-image: url("https://i.ytimg.com/vi/hN2PJ8mBF6w/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#two_breaths_walking {
+	background-image: url("https://i.ytimg.com/vi/l4kawxTj3_g/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#hibana {
+	background-image: url("https://i.ytimg.com/vi/hxSg2Ioz3LM/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#apple_dot_com {
+	background-image: url("https://i.ytimg.com/vi/h1pSSrmdEtw/hqdefault.jpg");
+    background-size: 100%;
+    background-position: center left;
+	margin:0 auto 25px;
+	border-radius: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+td {
+  padding: 10px 0 10px 10px;
+}
+
+td {
+	text-align: left;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+	color: #FFF;
+}
+
+td h1 {
+    font-size: 1.3em;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.20);
+	border-radius: 10px;
+}
+
+/* Boutons */
+
+.bouton a {
+display:block;
+width:150px;
+line-height:65px;
+text-align:center;
+vertical-align:middle;
+    background-image: linear-gradient(to top, #201438, #606ae6, #37cdea);
+    border-radius: 8px;
+color:white;
+text-decoration:none;
+float:left;
+margin:2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+	    margin-bottom: 10px;
+}
+
+#navigation_page .bouton a {
+	line-height:50px;	
+	margin-bottom: 50px;
+}
+
+.bouton a:hover {
+    background-image: linear-gradient(to top, #201438, #3341ec, #00d6ff);
+    border-radius: 8px;
+}
+
+#date_music .bouton a {
+	width:100% !important;
+}
+
+#wrapper {
+  overflow: hidden;   
+}
+#menu,#menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+#menu {
+  left: 50%;
+}
+#menu li {
+  right: 50%;
+}
+
+/* Footer */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+	background: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+    font-size: 13px;
+}
+#footer2 {
+	font-size: 10px;
+}
+
+/* ------ Mobile View -------- */
+
+@media (max-width:640px) {
+	
+	#mainContainer {
+    width: 100%;
+	float: none;
+	zoom: 100%;
+	}
+	
+	.container {
+		width: 100%;
+	}
+	
+	#side_nav {
+		display: none;
+	}
+	
+	iframe {
+    width: 100%;
+    zoom: 50% !important;
+    height: 100%;
+}
+}
